@@ -1,7 +1,9 @@
 {
   "name": "itemmirrorangulardemo",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+     "grunt": "^0.4.1"
+    },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
@@ -37,7 +39,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "grunt serve",
     "test": "grunt test"
   }
 }
